@@ -18,30 +18,30 @@
   <!-- Neutral, bootstrap-like palette to match original theme -->
   <style> 
           :root{
-                /* Primary Colors inspired by your hair and eyes */
-                --deep-espresso: #4A3A35;    /* Deep, dark brown (from hair/eyes) for primary text/borders */
-                --rich-umber: #7B685C;       /* A medium, warm brown/grey-brown for secondary text/muted elements */
-                --muted-gold: #AA8B5C;       /* A sophisticated, desaturated gold (from jewelry/t-shirt, elevated) for links/accents */
+                /* Classic, Timeless Palette: Inspired by antique paper, ink, and bronze accents */
                 
-                /* Backgrounds inspired by your t-shirt and background warmth */
-                --soft-cream: #FFFBF0;       /* A very soft, warm off-white/cream (from t-shirt, elevated) for panels */
-                --pale-linen: #FDF9EC;       /* Slightly warmer, subtly textured background for the page */
+                /* Primary Colors */
+                --deep-slate: #2F4F4F;     /* Dark Slate Gray: Use for main text/borders */
+                --warm-gray: #4A4A4A;      /* Darker Gray for secondary text */
+                --accent-bronze: #8B4513;  /* Saddle Brown/Bronze: Classic, warm accent for links/highlights */
+                
+                /* Paper/Background */
+                --bg: #F5F5DC;             /* Beige/Cream/Linen: Soft, warm background color (Antique paper look) */
+                --panel: #FFFFFF;          /* Pure White: For elements that need high contrast (like a text box) */
             
-                /* Map to existing CSS variables (reinterpreting original names) */
-                --olive-brown: var(--deep-espresso); /* Deepest brown */
-                --evergreen: var(--rich-umber);      /* Muted secondary brown/grey */
-                --moss-gold: var(--muted-gold);      /* Your sophisticated accent */
-                --maple: var(--muted-gold);          /* Link color from accent */
-                --stone: var(--pale-linen);          /* Page background */
+                /* Map to existing CSS variables */
+                --olive-brown: var(--deep-slate); /* trunks/earth */
+                --evergreen: var(--warm-gray);    /* forest - now a deep gray */
+                --moss-gold: #B8860B;             /* DarkGoldenrod: Muted gold for awards/highlights */
+                --maple: var(--accent-bronze);    /* maple orange - now classic bronze/brown for links */
+                --stone: var(--bg);               /* river-stone - background */
                 
-                --bg: var(--pale-linen);             /* Page background */
-                --panel: var(--soft-cream);          /* Content panel background */
-                --text: var(--deep-espresso);        /* Primary text color */
-                --muted: var(--rich-umber);          /* Secondary/muted text color */
-                --link: var(--muted-gold);           /* Hyperlink accent color */
-                --border: var(--rich-umber);         /* Border color */
-                --gold: var(--moss-gold);            /* Consistent gold mapping */
-                --shadow:0 10px 26px rgba(74, 58, 53, .10); /* Subtle shadow from deep espresso */
+                --text: var(--deep-slate);  /* primary text */
+                --muted: var(--warm-gray);  /* secondary text */
+                --link: var(--accent-bronze); /* accent links */
+                --border: var(--warm-gray);
+                --gold: var(--moss-gold);
+                --shadow:0 10px 26px rgba(74, 74, 74, .12);
                 --radius-2:12px;
                 --radius-3:18px;
             }
@@ -283,6 +283,7 @@
 <footer>
   <small>© <script>document.write(new Date().getFullYear())</script> Sarinasadat Hosseini • Designed with ❤️ and CSS • Theme accents: <span style="color:var(--brand)">teal</span> & <span style="color:var(--brand-2)">indigo</span></small>
 </footer>
+
 
 
 
