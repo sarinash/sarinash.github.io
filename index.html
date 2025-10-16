@@ -18,33 +18,33 @@
   <!-- Neutral, bootstrap-like palette to match original theme -->
   <style> 
           :root{
-              /* Royal Academic Palette: Deep Navy, Emerald Green, and Gold/Pale Aqua */
-              
-              /* Primary Colors (Remain Deep and Royal) */
-              --royal-navy: #001F3F;      /* Deep Navy Blue: The primary dark color for text/borders */
-              --emerald-green: #007F66;   /* Muted Emerald/Teal: A rich, secondary accent color */
-              --antique-gold: #B8860B;    /* DarkGoldenrod: A classic gold accent for links */
-              
-              /* 🎨 NEW BACKGROUND for "Eye-Catching" Pale Aqua */
-              --bg: #E8F8F7;             /* Very Pale Aqua/Seafoam: A light, cool, and subtle background */
-              --panel: #FFFFFF;          /* Pure White: For internal panels/high contrast */
-          
-              /* Map to existing CSS variables */
-              --olive-brown: var(--royal-navy);    /* trunks/earth -> Deep Navy */
-              --evergreen: var(--emerald-green);   /* forest -> Muted Emerald */
-              --moss-gold: var(--antique-gold);    /* larch/moss -> Antique Gold */
-              --maple: var(--emerald-green);       /* maple orange -> Emerald Green for secondary links */
-              --stone: var(--bg);                  /* river-stone -> Pale Aqua background */
-              
-              --text: var(--royal-navy);  /* primary text (Very Dark Blue) */
-              --muted: #465566;           /* secondary text (Muted Slate Blue/Gray) */
-              --link: var(--antique-gold); /* accent links (Gold/Bronze) */
-              --border: var(--royal-navy);
-              --gold: var(--moss-gold);   /* Keep Gold mapping consistent */
-              --shadow:0 10px 26px rgba(0, 31, 63, .10); /* Shadow in Navy tone */
-              --radius-2:12px;
-              --radius-3:18px;
-          }
+                /* Primary Colors inspired by your hair and eyes */
+                --deep-espresso: #4A3A35;    /* Deep, dark brown (from hair/eyes) for primary text/borders */
+                --rich-umber: #7B685C;       /* A medium, warm brown/grey-brown for secondary text/muted elements */
+                --muted-gold: #AA8B5C;       /* A sophisticated, desaturated gold (from jewelry/t-shirt, elevated) for links/accents */
+                
+                /* Backgrounds inspired by your t-shirt and background warmth */
+                --soft-cream: #FFFBF0;       /* A very soft, warm off-white/cream (from t-shirt, elevated) for panels */
+                --pale-linen: #FDF9EC;       /* Slightly warmer, subtly textured background for the page */
+            
+                /* Map to existing CSS variables (reinterpreting original names) */
+                --olive-brown: var(--deep-espresso); /* Deepest brown */
+                --evergreen: var(--rich-umber);      /* Muted secondary brown/grey */
+                --moss-gold: var(--muted-gold);      /* Your sophisticated accent */
+                --maple: var(--muted-gold);          /* Link color from accent */
+                --stone: var(--pale-linen);          /* Page background */
+                
+                --bg: var(--pale-linen);             /* Page background */
+                --panel: var(--soft-cream);          /* Content panel background */
+                --text: var(--deep-espresso);        /* Primary text color */
+                --muted: var(--rich-umber);          /* Secondary/muted text color */
+                --link: var(--muted-gold);           /* Hyperlink accent color */
+                --border: var(--rich-umber);         /* Border color */
+                --gold: var(--moss-gold);            /* Consistent gold mapping */
+                --shadow:0 10px 26px rgba(74, 58, 53, .10); /* Subtle shadow from deep espresso */
+                --radius-2:12px;
+                --radius-3:18px;
+            }
     *{box-sizing:border-box}
     html,body{height:100%}
     html{scroll-behavior:smooth}
@@ -220,13 +220,13 @@
       <section class="card" id="experience">
         <h2 class="section-title"><span class="dot"></span>Work Experience</h2>
         <div class="grid-2">
-          <div class="exp-item"><div class="exp-top"><div class="exp-title">Panasonic Corporation</div><div class="time">October 2022 – Present</div></div><div class="company">Data Scientist</div></div>
+          <div class="exp-item"><div class="exp-top"><div class="exp-title">Panasonic Corporation</div><div class="time">Oct 2022 – Present</div></div><div class="company">Data Scientist</div></div>
 
-          <div class="exp-item"><div class="exp-top"><div class="exp-title">EISESIV, Tokyo Institute of Technology</div><div class="time">September 2019 – September 2022</div></div><div class="company">Research Assistant</div></div>
+          <div class="exp-item"><div class="exp-top"><div class="exp-title">EISESIV, Tokyo Institute of Technology</div><div class="time">Sep 2019 – Sep 2022</div></div><div class="company">Research Assistant</div></div>
 
           <div class="exp-item"><div class="exp-top"><div class="exp-title">Tehran Province Water and Wastewater</div><div class="time">Summer 2015</div></div><div class="company">Research Intern</div></div>
 
-          <div class="exp-item"><div class="exp-top"><div class="exp-title">ESC</div><div class="time">August 2018 – August 2018</div></div><div class="company">English Instructor</div></div>
+          <div class="exp-item"><div class="exp-top"><div class="exp-title">ESC</div><div class="time">Aug 2018 – Aug 2018</div></div><div class="company">English Instructor</div></div>
         </div>
       </section>
 
@@ -250,28 +250,28 @@
     <div class="exp-item">
       <div class="exp-top">
         <div class="exp-title">AWS Certified Solutions Architect – Associate</div>
-        <div class="time">January 2025</div>
+        <div class="time">Jan 2025</div>
       </div>
     </div>
 
     <div class="exp-item">
       <div class="exp-top">
         <div class="exp-title">The Project Management Course: Beginner to PROject Manager</div>
-        <div class="time">July 2024</div>
+        <div class="time">Jul 2024</div>
       </div>
     </div>
 
     <div class="exp-item">
       <div class="exp-top">
         <div class="exp-title">AWS Certified Cloud Practitioner</div>
-        <div class="time">June 2024</div>
+        <div class="time">Jun 2024</div>
       </div>
     </div>
 
     <div class="exp-item">
       <div class="exp-top">
         <div class="exp-title">Practical AI with Python and Reinforcement Learning</div>
-        <div class="time">September 2023</div>
+        <div class="time">Sep 2023</div>
       </div>
     </div>
 
@@ -282,6 +282,7 @@
 <footer>
   <small>© <script>document.write(new Date().getFullYear())</script> Sarinasadat Hosseini • Designed with ❤️ and CSS • Theme accents: <span style="color:var(--brand)">teal</span> & <span style="color:var(--brand-2)">indigo</span></small>
 </footer>
+
 
 
 
