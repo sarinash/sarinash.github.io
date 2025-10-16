@@ -17,34 +17,34 @@
 
   <!-- Neutral, bootstrap-like palette to match original theme -->
   <style> 
-        :root{
-            /* Royal Academic Palette: Deep Navy, Emerald Green, and Cream/Gold */
-            
-            /* Primary Colors */
-            --royal-navy: #001F3F;      /* Deep Navy Blue: The primary dark color for text/borders */
-            --emerald-green: #007F66;   /* Muted Emerald/Teal: A rich, secondary accent color */
-            --antique-gold: #B8860B;    /* DarkGoldenrod: A classic gold accent */
-            
-            /* Paper/Background */
-            --bg: #F8F8FF;             /* Ghost White/Off-White: Clean, light background (Classic Paper) */
-            --panel: #FFFFFF;          /* Pure White: For internal panels/high contrast */
-        
-            /* Map to existing CSS variables */
-            --olive-brown: var(--royal-navy);    /* trunks/earth -> Deep Navy */
-            --evergreen: var(--emerald-green);   /* forest -> Muted Emerald */
-            --moss-gold: var(--antique-gold);    /* larch/moss -> Antique Gold */
-            --maple: var(--emerald-green);       /* maple orange -> Emerald Green for secondary links */
-            --stone: var(--bg);                  /* river-stone -> Off-White background */
-            
-            --text: var(--royal-navy);  /* primary text (Very Dark Blue) */
-            --muted: #465566;           /* secondary text (Muted Slate Blue/Gray) */
-            --link: var(--antique-gold); /* accent links (Gold/Bronze) */
-            --border: var(--royal-navy);
-            --gold: var(--moss-gold);   /* Keep Gold mapping consistent */
-            --shadow:0 10px 26px rgba(0, 31, 63, .10); /* Shadow in Navy tone */
-            --radius-2:12px;
-            --radius-3:18px;
-        }
+          :root{
+              /* Royal Academic Palette: Deep Navy, Emerald Green, and Gold/Pale Aqua */
+              
+              /* Primary Colors (Remain Deep and Royal) */
+              --royal-navy: #001F3F;      /* Deep Navy Blue: The primary dark color for text/borders */
+              --emerald-green: #007F66;   /* Muted Emerald/Teal: A rich, secondary accent color */
+              --antique-gold: #B8860B;    /* DarkGoldenrod: A classic gold accent for links */
+              
+              /* 🎨 NEW BACKGROUND for "Eye-Catching" Pale Aqua */
+              --bg: #E8F8F7;             /* Very Pale Aqua/Seafoam: A light, cool, and subtle background */
+              --panel: #FFFFFF;          /* Pure White: For internal panels/high contrast */
+          
+              /* Map to existing CSS variables */
+              --olive-brown: var(--royal-navy);    /* trunks/earth -> Deep Navy */
+              --evergreen: var(--emerald-green);   /* forest -> Muted Emerald */
+              --moss-gold: var(--antique-gold);    /* larch/moss -> Antique Gold */
+              --maple: var(--emerald-green);       /* maple orange -> Emerald Green for secondary links */
+              --stone: var(--bg);                  /* river-stone -> Pale Aqua background */
+              
+              --text: var(--royal-navy);  /* primary text (Very Dark Blue) */
+              --muted: #465566;           /* secondary text (Muted Slate Blue/Gray) */
+              --link: var(--antique-gold); /* accent links (Gold/Bronze) */
+              --border: var(--royal-navy);
+              --gold: var(--moss-gold);   /* Keep Gold mapping consistent */
+              --shadow:0 10px 26px rgba(0, 31, 63, .10); /* Shadow in Navy tone */
+              --radius-2:12px;
+              --radius-3:18px;
+          }
     *{box-sizing:border-box}
     html,body{height:100%}
     html{scroll-behavior:smooth}
@@ -282,6 +282,7 @@
 <footer>
   <small>© <script>document.write(new Date().getFullYear())</script> Sarinasadat Hosseini • Designed with ❤️ and CSS • Theme accents: <span style="color:var(--brand)">teal</span> & <span style="color:var(--brand-2)">indigo</span></small>
 </footer>
+
 
 
 
